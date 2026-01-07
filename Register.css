@@ -1,0 +1,17 @@
+h1{
+    color: #333;
+    text-align: center;
+    background: #ffe url(/image/fp/fade.png) top repeat-x;
+    color: #800;
+}
+form{
+    background: #ffe url(/image/fp/fade.png) top repeat-x;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
