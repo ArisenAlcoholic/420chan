@@ -9,6 +9,7 @@ CREATE TABLE usuario (
     nombre_usuario VARCHAR(50) NOT NULL UNIQUE,
     contrasena VARCHAR(50) NOT NULL,
     num_publicaciones INT DEFAULT 0,
+    fecha_creacion DATETIME DEFAULT CURRENT_TIMESTAMP,
     num_comentarios INT DEFAULT 0,
     tiempo_activo INT DEFAULT 0
 );
@@ -247,4 +248,5 @@ DELETE FROM like_publicacion WHERE id_usuario = 1 AND id_publicacion = 1;
 DELETE FROM usuario WHERE id = 3;
 
 /*Se comprueba como afecta borrar una publicacion */
+
 DELETE FROM publicacion WHERE id = 1;
