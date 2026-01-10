@@ -1,0 +1,114 @@
+/* General body styles (shared across sections) */
+body {
+    margin: 10px;
+    padding: 10px;
+    background: #ffe top repeat-x;
+    color: #800;
+}
+
+/* General h1 styles (shared, with overrides for consistency) */
+h1 {
+    color: #800;
+    text-align: center;
+}
+
+/* General p styles (for main section) */
+p {
+    color: #000;
+    text-align: center;
+    font-size: 15pt;
+}
+
+/* General form styles (shared for login, register, and main buttons) */
+form {
+    background: #ffe top repeat-x;
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Specific styles for main section buttons */
+.main-section .register {
+    position: absolute;
+    top: 10px;
+    right: 75px;
+}
+
+.main-section .login {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Specific styles for login section */
+.login-section form {
+    padding: 20px; /* Matches original login form padding */
+}
+
+/* Specific styles for register section */
+.register-section form {
+    padding: 20px; /* Matches original register form padding */
+}
+
+/* Additional shared styles if needed (e.g., for future expansions) */
+h2 {
+    text-align: center;
+}
+
+/* Existing styles remain unchanged */
+
+/* Styles for posts and comments */
+.post, .comment {
+    border: 1px solid #800;
+    padding: 10px;
+    margin: 10px 0;
+    background: #ffe;
+    border-radius: 5px;
+}
+
+.post h3, .comment h4 {
+    color: #800;
+    margin: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+}
+
+/* Profile-specific styles */
+.profile-section {
+    text-align: center;
+    margin: 20px auto;
+    width: 400px;
+}
+
+.profile-section p {
+    font-size: 16pt;
+    margin: 10px 0;
+}
+
+.change-password-form {
+    background: #ffe top repeat-x;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #800;
+}
+
+.change-password-form label {
+    color: #800;
+}
+
+.change-password-form input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+/* Ensure logout and back buttons are styled like other forms */
+.profile-section form {
+    margin: 10px auto;
+}

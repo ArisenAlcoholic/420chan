@@ -10,8 +10,7 @@ CREATE TABLE usuario (
     contrasena VARCHAR(50) NOT NULL,
     num_publicaciones INT DEFAULT 0,
     fecha_creacion DATETIME DEFAULT CURRENT_TIMESTAMP,
-    num_comentarios INT DEFAULT 0,
-    tiempo_activo INT DEFAULT 0
+    num_comentarios INT DEFAULT 0
 );
 
 /* Se crea la tabla publicaciones, para que los usuarios puedan publicar */
@@ -182,71 +181,3 @@ BEGIN
 END$$
 DELIMITER ;
 
-/* Se crea vista para los me gusta en las publicaciones*/
-CREATE VIEW vista_likes_publicacion AS
-SELECT
-    p.id AS id_publicacion,
-    p.texto,
-    p.likes,
-    lp.id_usuario
-FROM publicacion p
-LEFT JOIN like_publicacion lp
-       ON p.id = lp.id_publicacion;
-
-/* Se crea vista para los me gusta en los comentarios*/
-CREATE VIEW vista_likes_comentario AS
-SELECT
-    c.id AS id_comentario,
-    c.id_publicacion,
-    c.texto,
-    c.likes,
-    lc.id_usuario
-FROM comentario c
-LEFT JOIN like_comentario lc
-       ON c.id = lc.id_comentario;
-
-----------------------------------------
-/*PRUEBAS*/
----------------------------------------
-
-/*Se comprueba las tablas creadas*/
-SHOW TABLES;
-DESCRIBE usuario;
-DESCRIBE publicacion;
-DESCRIBE comentario;
-/* Se añaden usuarios */
-INSERT INTO usuario (nombre_usuario, contrasena) VALUES
-('usuario1', 'pass1'),
-('usuario2', 'pass2'),
-('usuario3', 'pass3');
-
-/* Se añaden publicaciones*/
-INSERT INTO publicacion (id_usuario, texto) VALUES
-(1,'Publicacion de prueba'),
-(3,'Publicacion de prueba3');
-
-/*Se añaden comentarios*/
-INSERT INTO comentario (id_usuario, id_publicacion, texto) VALUES
-(2, 1, 'Comentario del usuario2'),
-(1, 1, 'Comentario del usuario1');
-
-/*Se añaden likes*/
-INSERT INTO like_publicacion VALUES (1, 1);
-INSERT INTO like_comentario VALUES (2, 1);
-
-/* Se comprueba los usuarios,publicaciones,comentarios y likes añadidos*/
-SELECT * FROM usuario;
-SELECT * FROM publicacion;
-SELECT * FROM comentario;
-SELECT id, nombre_usuario, num_publicaciones FROM usuario;
-SELECT id, nombre_usuario, num_comentarios FROM usuario;
-
-/*Se comprueba borrar el like a la publicacion */
-DELETE FROM like_publicacion WHERE id_usuario = 1 AND id_publicacion = 1;
-
-/*Se comprueba borrar al usuario 3*/
-DELETE FROM usuario WHERE id = 3;
-
-/*Se comprueba como afecta borrar una publicacion */
-
-DELETE FROM publicacion WHERE id = 1;
