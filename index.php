@@ -14,6 +14,8 @@ if (isset($_POST['logout'])) {
 
 $error = "";
 
+## Condicional de inicio de sesión. 
+
 if (isset($_POST['complete_login'])) {
     $user = trim($_POST['user']); 
     $password = trim($_POST['password']);
@@ -128,4 +130,5 @@ if (isset($_POST['complete_register'])) {
     <!-- Mensaje de error sale aquí -->
     <?php if ($error) { echo "<p style=\"color:red\"><i>$error</i></p>"; } ?>
 </body>
+
 </html>
