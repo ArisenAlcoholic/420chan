@@ -1,114 +1,158 @@
-/* General body styles (shared across sections) */
+/* Estilo basado en Yotsuba de 4chan.org 
+   Engloba todas las páginas de php*/
+
 body {
-    margin: 10px;
-    padding: 10px;
-    background: #ffe top repeat-x;
-    color: #800;
-}
-
-/* General h1 styles (shared, with overrides for consistency) */
-h1 {
-    color: #800;
-    text-align: center;
-}
-
-/* General p styles (for main section) */
-p {
-    color: #000;
-    text-align: center;
-    font-size: 15pt;
-}
-
-/* General form styles (shared for login, register, and main buttons) */
-form {
-    background: #ffe top repeat-x;
-    padding: 20px;
-    margin: 0 auto;
-    width: 300px;
-    border-radius: 10px;
-}
-
-/* Specific styles for main section buttons */
-.main-section .register {
-    position: absolute;
-    top: 10px;
-    right: 75px;
-}
-
-.main-section .login {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
-
-/* Specific styles for login section */
-.login-section form {
-    padding: 20px; /* Matches original login form padding */
-}
-
-/* Specific styles for register section */
-.register-section form {
-    padding: 20px; /* Matches original register form padding */
-}
-
-/* Additional shared styles if needed (e.g., for future expansions) */
-h2 {
-    text-align: center;
-}
-
-/* Existing styles remain unchanged */
-
-/* Styles for posts and comments */
-.post, .comment {
-    border: 1px solid #800;
-    padding: 10px;
-    margin: 10px 0;
-    background: #ffe;
-    border-radius: 5px;
-}
-
-.post h3, .comment h4 {
-    color: #800;
+    background-color: #EEF2FF;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
     margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px 0;
+    text-align: center;  
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+    background-color: #D6DAF0;
+    border: 1px solid #B7C5D9;
+    padding: 5px;
+    min-height: 46px;  
+}
+
+h4 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    background-color: #D6DAF0;
+    border: 1px solid #B7C5D9;
+    padding: 3px;
+    min-height: 42px;  
+}
+
+p {
+    margin: 5px 0;
+}
+
+.welcome{
+    font-size: 18px;
+    text-align: center;  
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #800080;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 10px auto;  
+    max-width: 400px;   
+    text-align: center; 
+}
+
+.profile-content {
+    max-width: 600px;      
+    margin: 0 auto;        
+    text-align: center;    
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="file"], textarea, select {
+    background-color: #FFFFFF;
+    border: 1px solid #B7C5D9;
+    padding: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+input[type="submit"] {
+    background-color: #D6DAF0;
+    border: 1px solid #B7C5D9;
+    padding: 3px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #B7C5D9;
 }
 
 textarea {
     width: 100%;
     height: 100px;
+    resize: vertical;
 }
 
-/* Profile-specific styles */
-.profile-section {
-    text-align: center;
-    margin: 20px auto;
-    width: 400px;
-}
-
-.profile-section p {
-    font-size: 16pt;
+.post {
+    background-color: #F0E0D6;
+    border: 1px solid #D9BFB7;
     margin: 10px 0;
+    padding: 10px;
 }
 
-.change-password-form {
-    background: #ffe top repeat-x;
-    padding: 20px;
-    margin: 20px auto;
-    width: 300px;
-    border-radius: 10px;
-    border: 1px solid #800;
-}
-
-.change-password-form label {
-    color: #800;
-}
-
-.change-password-form input[type="password"] {
-    width: 100%;
+.comment {
+    background-color: #F0E0D6;
+    border: 1px solid #D9BFB7;
+    margin: 5px 0 5px 20px;
     padding: 5px;
-    margin: 5px 0;
 }
 
-/* Ensure logout and back buttons are styled like other forms */
-.profile-section form {
-    margin: 10px auto;
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-section, .login-section, .register-section {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #B7C5D9;
+}
+
+.login-section, .register-section {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.error {
+    color: #FF0000;
+    font-style: italic;
+}
+
+.success {
+    color: #008000;
+    font-style: italic;
+}
+.profile-pic {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    float: left;
+    margin-right: 5px;
 }

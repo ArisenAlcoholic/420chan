@@ -9,6 +9,8 @@ if (!isset($_SESSION['user_id'])) {
 }
 $con = mysqli_connect("localhost", "root", "", "b420chan", 3306, "");
 
+## Bloque para insertar/eliminar likes de las publicaciones. 
+
 $user_id = $_SESSION['user_id'];
 if (isset($_POST['post_id'])) {
     $post_id = $_POST['post_id'];
@@ -26,6 +28,10 @@ if (isset($_POST['post_id'])) {
         header("Location: post.php?id=$post_id");
     }
     exit();
+
+## Bloque para insertar/eliminar likes de los comentarios.
+
+
 } elseif (isset($_POST['comment_id'])) {
     $comment_id = $_POST['comment_id'];
     $sql = "SELECT * FROM like_comentario WHERE id_usuario = $user_id AND id_comentario = $comment_id";
