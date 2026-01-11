@@ -10,7 +10,8 @@ CREATE TABLE usuario (
     contrasena VARCHAR(50) NOT NULL,
     num_publicaciones INT DEFAULT 0,
     fecha_creacion DATETIME DEFAULT CURRENT_TIMESTAMP,
-    num_comentarios INT DEFAULT 0
+    num_comentarios INT DEFAULT 0,  /*Redundancia por desuso en el código php, se mantiene por posible uso en generación de estadísticas y logs */
+    imagen_perfil VARCHAR(255) DEFAULT NULL
 );
 
 /* Se crea la tabla publicaciones, para que los usuarios puedan publicar */
@@ -19,7 +20,8 @@ CREATE TABLE publicacion (
     id_usuario INT NOT NULL,
     fecha_publicacion DATETIME DEFAULT CURRENT_TIMESTAMP,
     texto TEXT NOT NULL,
-    likes INT DEFAULT 0
+    likes INT DEFAULT 0,
+    imagen_pub VARCHAR(255) DEFAULT NULL
 );
 
 /* Se crea la tabla de los comentarios de los usuarios registrados */
@@ -180,4 +182,5 @@ BEGIN
     WHERE id = OLD.id_comentario;
 END$$
 DELIMITER ;
+
 
