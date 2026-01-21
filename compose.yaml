@@ -12,7 +12,7 @@ services:
     ports:
       - "3306:3306"
     restart: always
-    healthcheck:  # Simplified for Podman compatibility
+    healthcheck: 
       test: ["CMD-SHELL", "mysqladmin ping -h localhost"]
       interval: 10s
       timeout: 5s
