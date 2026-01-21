@@ -6,8 +6,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 
-$con = mysqli_connect("localhost", "root", "", "b420chan", 3306, "");
-
+$con = mysqli_connect($_ENV['DB_HOST'], $_ENV['DB_USER'], "", $_ENV['DB_NAME'], 3306, "");
 ## Consulta de datos de la publicación y el usuario cuya publicación se ha seleccionado. 
 
 $user_id = $_SESSION['user_id'];

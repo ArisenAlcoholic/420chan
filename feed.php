@@ -8,8 +8,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 
-$con = mysqli_connect("localhost", "root", "", "b420chan", 3306, "");
-
+$con = mysqli_connect($_ENV['DB_HOST'], $_ENV['DB_USER'], "", $_ENV['DB_NAME'], 3306, "");
 $user_id = $_SESSION['user_id']; //Valores de la sesión del login de index.php
 $username = $_SESSION['username'];  
 $filter_user = isset($_POST['filter_user']) ? trim($_POST['filter_user']) : '';

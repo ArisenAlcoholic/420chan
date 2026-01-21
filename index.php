@@ -3,7 +3,7 @@ session_start();
 
 ## Condicional para volver a index.php en caso de que se borren los datos de sesión. 
 
-$con = mysqli_connect("localhost", "root", "", "b420chan", 3306, "");
+$con = mysqli_connect($_ENV['DB_HOST'], $_ENV['DB_USER'], "", $_ENV['DB_NAME'], 3306, "");
 
 
 if (isset($_POST['logout'])) {

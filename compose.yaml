@@ -1,0 +1,34 @@
+services:
+  db:
+    image: docker.io/library/mariadb:latest
+    container_name: 420chan_db
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "1"
+      MYSQL_DATABASE: b420chan
+      MYSQL_USER: root
+    volumes:
+      - ./Base_datos_420.sql:/docker-entrypoint-initdb.d/Base_datos_420.sql
+      - db_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    restart: always
+    healthcheck:  # Simplified for Podman compatibility
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+  app:
+    build: .
+    container_name: 420chan_web
+    environment:
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_NAME: b420chan
+      DB_USER: root
+    ports:
+      - "8090:80"
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  db_data:
