@@ -5,4 +5,5 @@ Foro basado en el diseño de tablones de imágenes como 4Chan o Futaba
 - Creación de publicaciones con imágenes.
 - Creación de comentarios sobre las publicaciones.
 - Página de perfil donde se puede cambiar la contraseña o la imagen de perfil.
+  
 Para ejecutar el compose.yaml usar podman-compose up -d --build
