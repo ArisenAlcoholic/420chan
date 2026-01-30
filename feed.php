@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-## Condicional para volver a index.php en caso de que se borren los datos de sesión. 
+/** Condicional para volver a index.php en caso de que se borren los datos de sesión. **/
 
 if (!isset($_SESSION['user_id'])) {
     header("Location: index.php");
