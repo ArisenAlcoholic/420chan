@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['if_0',['if',['../feed_8php.html#aaf0951b61d565b0028ea0b4c0374ebd7',1,'if:&#160;feed.php'],['../post_8php.html#a30da36669d4222b39a6df2424b911fbe',1,'if:&#160;post.php'],['../post_8php.html#a329e8d98f88be03d99b2e1df4e9cad61',1,'if:&#160;post.php'],['../profile_8php.html#a7c0e0c1dd62b8ba2e9ce6d84861770b1',1,'if:&#160;profile.php']]]
+  ['abstract_0',['ABSTRACT',['../classPhpParser_1_1Modifiers.html#a51416de441eaea8b75cda3c9fa4ec2f9',1,'PhpParser::Modifiers']]],
+  ['added_1',['added',['../classSebastianBergmann_1_1Diff_1_1Differ.html#a6698151918f0ae3967c437cc2ce4b9f3',1,'SebastianBergmann\Diff\Differ\ADDED'],['../classSebastianBergmann_1_1Diff_1_1Line.html#a94797145d34189e17edab920d9fb18f3',1,'SebastianBergmann\Diff\Line\ADDED']]]
 ];
