@@ -1,26 +1,43 @@
-name: PHP Unit Tests
+name: PHP Tests with MySQL
 
 on:
   push:
     branches: [ "main" ]
-  pull_request:
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: b420chan
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
     steps:
-    - name: Clonar repositorio
+    - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Configurar PHP
+    - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
         php-version: '8.2'
+        extensions: pdo_mysql
 
-    - name: Instalar dependencias
-      run: composer install --no-interaction --prefer-dist
+    - name: Install dependencies
+      run: composer install --no-interaction
 
-    - name: Ejecutar tests
+    - name: Import database schema
+      run: |
+        mysql -h 127.0.0.1 -u root -proot b420chan < Base_datos_420.sql
+
+    - name: Run PHPUnit tests
       run: php vendor/bin/phpunit
-
