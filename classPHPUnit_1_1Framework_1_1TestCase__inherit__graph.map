@@ -1,6 +1,6 @@
 <map id="PHPUnit\Framework\TestCase" name="PHPUnit\Framework\TestCase">
 <area shape="rect" id="Node000001" title=" " alt="" coords="440,80,655,105"/>
-<area shape="rect" id="Node000007" href="$classUserTest.html" title=" " alt="" coords="703,80,781,105"/>
+<area shape="rect" id="Node000007" href="$classUsuarioTest.html" title=" " alt="" coords="703,80,801,105"/>
 <area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="668,90,702,90,702,95,668,95"/>
 <area shape="rect" id="Node000002" href="$classPHPUnit_1_1Framework_1_1Assert.html" title=" " alt="" coords="168,5,365,31"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="356,31,393,39,512,77,511,82,391,45,355,36"/>

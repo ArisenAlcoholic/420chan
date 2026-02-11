@@ -24,12 +24,11 @@ var searchData=
   ['unsupportedversionconstraintexception_21',['UnsupportedVersionConstraintException',['../classPharIo_1_1Version_1_1UnsupportedVersionConstraintException.html',1,'PharIo::Version']]],
   ['updateschemalocation_22',['UpdateSchemaLocation',['../classPHPUnit_1_1TextUI_1_1XmlConfiguration_1_1UpdateSchemaLocation.html',1,'PHPUnit::TextUI::XmlConfiguration']]],
   ['url_23',['Url',['../classPharIo_1_1Manifest_1_1Url.html',1,'PharIo::Manifest']]],
-  ['use_5f_24',['use_',['../classPhpParser_1_1Node_1_1Stmt_1_1Use__.html',1,'PhpParser\Node\Stmt\Use_'],['../classPhpParser_1_1Builder_1_1Use__.html',1,'PhpParser\Builder\Use_']]],
+  ['use_5f_24',['use_',['../classPhpParser_1_1Builder_1_1Use__.html',1,'PhpParser\Builder\Use_'],['../classPhpParser_1_1Node_1_1Stmt_1_1Use__.html',1,'PhpParser\Node\Stmt\Use_']]],
   ['useitem_25',['UseItem',['../classPhpParser_1_1Node_1_1UseItem.html',1,'PhpParser::Node']]],
-  ['user_26',['User',['../classApp_1_1User.html',1,'App']]],
-  ['usertest_27',['UserTest',['../classUserTest.html',1,'']]],
-  ['uses_28',['Uses',['../classPHPUnit_1_1Metadata_1_1Uses.html',1,'PHPUnit::Metadata']]],
-  ['usesclass_29',['usesclass',['../classPHPUnit_1_1Framework_1_1Attributes_1_1UsesClass.html',1,'PHPUnit\Framework\Attributes\UsesClass'],['../classPHPUnit_1_1Metadata_1_1UsesClass.html',1,'PHPUnit\Metadata\UsesClass']]],
-  ['usesdefaultclass_30',['UsesDefaultClass',['../classPHPUnit_1_1Metadata_1_1UsesDefaultClass.html',1,'PHPUnit::Metadata']]],
-  ['usesfunction_31',['usesfunction',['../classPHPUnit_1_1Framework_1_1Attributes_1_1UsesFunction.html',1,'PHPUnit\Framework\Attributes\UsesFunction'],['../classPHPUnit_1_1Metadata_1_1UsesFunction.html',1,'PHPUnit\Metadata\UsesFunction']]]
+  ['uses_26',['Uses',['../classPHPUnit_1_1Metadata_1_1Uses.html',1,'PHPUnit::Metadata']]],
+  ['usesclass_27',['usesclass',['../classPHPUnit_1_1Framework_1_1Attributes_1_1UsesClass.html',1,'PHPUnit\Framework\Attributes\UsesClass'],['../classPHPUnit_1_1Metadata_1_1UsesClass.html',1,'PHPUnit\Metadata\UsesClass']]],
+  ['usesdefaultclass_28',['UsesDefaultClass',['../classPHPUnit_1_1Metadata_1_1UsesDefaultClass.html',1,'PHPUnit::Metadata']]],
+  ['usesfunction_29',['usesfunction',['../classPHPUnit_1_1Framework_1_1Attributes_1_1UsesFunction.html',1,'PHPUnit\Framework\Attributes\UsesFunction'],['../classPHPUnit_1_1Metadata_1_1UsesFunction.html',1,'PHPUnit\Metadata\UsesFunction']]],
+  ['usuariotest_30',['UsuarioTest',['../classUsuarioTest.html',1,'']]]
 ];
