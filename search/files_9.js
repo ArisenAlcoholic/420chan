@@ -5,9 +5,9 @@ var searchData=
   ['identity_2ephp_2',['Identity.php',['../Identity_8php.html',1,'']]],
   ['if_5f_2ephp_3',['If_.php',['../If___8php.html',1,'']]],
   ['ignoreclassforcodecoverage_2ephp_4',['ignoreclassforcodecoverage.php',['../Framework_2Attributes_2IgnoreClassForCodeCoverage_8php.html',1,'(Espacio de nombres global)'],['../Metadata_2IgnoreClassForCodeCoverage_8php.html',1,'(Espacio de nombres global)']]],
-  ['ignoredeprecations_2ephp_5',['ignoredeprecations.php',['../Metadata_2IgnoreDeprecations_8php.html',1,'(Espacio de nombres global)'],['../Framework_2Attributes_2IgnoreDeprecations_8php.html',1,'(Espacio de nombres global)']]],
+  ['ignoredeprecations_2ephp_5',['ignoredeprecations.php',['../Framework_2Attributes_2IgnoreDeprecations_8php.html',1,'(Espacio de nombres global)'],['../Metadata_2IgnoreDeprecations_8php.html',1,'(Espacio de nombres global)']]],
   ['ignoredlinesfindingvisitor_2ephp_6',['IgnoredLinesFindingVisitor.php',['../IgnoredLinesFindingVisitor_8php.html',1,'']]],
-  ['ignorefunctionforcodecoverage_2ephp_7',['ignorefunctionforcodecoverage.php',['../Metadata_2IgnoreFunctionForCodeCoverage_8php.html',1,'(Espacio de nombres global)'],['../Framework_2Attributes_2IgnoreFunctionForCodeCoverage_8php.html',1,'(Espacio de nombres global)']]],
+  ['ignorefunctionforcodecoverage_2ephp_7',['ignorefunctionforcodecoverage.php',['../Framework_2Attributes_2IgnoreFunctionForCodeCoverage_8php.html',1,'(Espacio de nombres global)'],['../Metadata_2IgnoreFunctionForCodeCoverage_8php.html',1,'(Espacio de nombres global)']]],
   ['ignoremethodforcodecoverage_2ephp_8',['ignoremethodforcodecoverage.php',['../Metadata_2IgnoreMethodForCodeCoverage_8php.html',1,'(Espacio de nombres global)'],['../Framework_2Attributes_2IgnoreMethodForCodeCoverage_8php.html',1,'(Espacio de nombres global)']]],
   ['illogicalvaluesexception_2ephp_9',['IllogicalValuesException.php',['../IllogicalValuesException_8php.html',1,'']]],
   ['include_5f_2ephp_10',['Include_.php',['../Include___8php.html',1,'']]],
@@ -25,7 +25,7 @@ var searchData=
   ['installed_2ephp_22',['installed.php',['../installed_8php.html',1,'']]],
   ['installedversions_2ephp_23',['InstalledVersions.php',['../InstalledVersions_8php.html',1,'']]],
   ['instanceof_5f_2ephp_24',['Instanceof_.php',['../Instanceof___8php.html',1,'']]],
-  ['int_5f_2ephp_25',['int_.php',['../Expr_2Cast_2Int___8php.html',1,'(Espacio de nombres global)'],['../Scalar_2Int___8php.html',1,'(Espacio de nombres global)']]],
+  ['int_5f_2ephp_25',['int_.php',['../Scalar_2Int___8php.html',1,'(Espacio de nombres global)'],['../Expr_2Cast_2Int___8php.html',1,'(Espacio de nombres global)']]],
   ['interface_5f_2ephp_26',['interface_.php',['../Builder_2Interface___8php.html',1,'(Espacio de nombres global)'],['../Node_2Stmt_2Interface___8php.html',1,'(Espacio de nombres global)']]],
   ['interfacemethodunit_2ephp_27',['InterfaceMethodUnit.php',['../InterfaceMethodUnit_8php.html',1,'']]],
   ['interfaceunit_2ephp_28',['InterfaceUnit.php',['../InterfaceUnit_8php.html',1,'']]],
@@ -35,7 +35,7 @@ var searchData=
   ['introducecachedirectoryattribute_2ephp_32',['IntroduceCacheDirectoryAttribute.php',['../IntroduceCacheDirectoryAttribute_8php.html',1,'']]],
   ['introducecoverageelement_2ephp_33',['IntroduceCoverageElement.php',['../IntroduceCoverageElement_8php.html',1,'']]],
   ['invalidapplicationnameexception_2ephp_34',['InvalidApplicationNameException.php',['../InvalidApplicationNameException_8php.html',1,'']]],
-  ['invalidargumentexception_2ephp_35',['invalidargumentexception.php',['../phpunit_2phpunit_2src_2Event_2Exception_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2phpunit_2src_2Framework_2Exception_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)'],['../sebastian_2diff_2src_2Exception_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2php-text-template_2src_2exceptions_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2php-code-coverage_2src_2Exception_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)']]],
+  ['invalidargumentexception_2ephp_35',['invalidargumentexception.php',['../phpunit_2phpunit_2src_2Event_2Exception_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)'],['../sebastian_2diff_2src_2Exception_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2phpunit_2src_2Framework_2Exception_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2php-code-coverage_2src_2Exception_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2php-text-template_2src_2exceptions_2InvalidArgumentException_8php.html',1,'(Espacio de nombres global)']]],
   ['invalidattributeexception_2ephp_36',['InvalidAttributeException.php',['../InvalidAttributeException_8php.html',1,'']]],
   ['invalidcodeunitexception_2ephp_37',['InvalidCodeUnitException.php',['../InvalidCodeUnitException_8php.html',1,'']]],
   ['invalidcoverstargetexception_2ephp_38',['InvalidCoversTargetException.php',['../InvalidCoversTargetException_8php.html',1,'']]],
@@ -87,5 +87,5 @@ var searchData=
   ['istype_2ephp_84',['IsType.php',['../IsType_8php.html',1,'']]],
   ['iswritable_2ephp_85',['IsWritable.php',['../IsWritable_8php.html',1,'']]],
   ['iterabletype_2ephp_86',['IterableType.php',['../IterableType_8php.html',1,'']]],
-  ['iterator_2ephp_87',['iterator.php',['../php-code-coverage_2src_2Node_2Iterator_8php.html',1,'(Espacio de nombres global)'],['../php-file-iterator_2src_2Iterator_8php.html',1,'(Espacio de nombres global)']]]
+  ['iterator_2ephp_87',['iterator.php',['../php-file-iterator_2src_2Iterator_8php.html',1,'(Espacio de nombres global)'],['../php-code-coverage_2src_2Node_2Iterator_8php.html',1,'(Espacio de nombres global)']]]
 ];

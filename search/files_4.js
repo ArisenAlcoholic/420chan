@@ -4,7 +4,7 @@ var searchData=
   ['database_2ephp_1',['Database.php',['../Database_8php.html',1,'']]],
   ['datafromdataprovider_2ephp_2',['DataFromDataProvider.php',['../DataFromDataProvider_8php.html',1,'']]],
   ['datafromtestdependency_2ephp_3',['DataFromTestDependency.php',['../DataFromTestDependency_8php.html',1,'']]],
-  ['dataprovider_2ephp_4',['dataprovider.php',['../Framework_2Attributes_2DataProvider_8php.html',1,'(Espacio de nombres global)'],['../Metadata_2DataProvider_8php.html',1,'(Espacio de nombres global)'],['../Metadata_2Api_2DataProvider_8php.html',1,'(Espacio de nombres global)']]],
+  ['dataprovider_2ephp_4',['dataprovider.php',['../Framework_2Attributes_2DataProvider_8php.html',1,'(Espacio de nombres global)'],['../Metadata_2Api_2DataProvider_8php.html',1,'(Espacio de nombres global)'],['../Metadata_2DataProvider_8php.html',1,'(Espacio de nombres global)']]],
   ['dataproviderexternal_2ephp_5',['DataProviderExternal.php',['../DataProviderExternal_8php.html',1,'']]],
   ['dataprovidermethodcalled_2ephp_6',['DataProviderMethodCalled.php',['../DataProviderMethodCalled_8php.html',1,'']]],
   ['dataprovidermethodcalledsubscriber_2ephp_7',['DataProviderMethodCalledSubscriber.php',['../DataProviderMethodCalledSubscriber_8php.html',1,'']]],
@@ -31,7 +31,7 @@ var searchData=
   ['dependsexternal_2ephp_28',['DependsExternal.php',['../DependsExternal_8php.html',1,'']]],
   ['dependsexternalusingdeepclone_2ephp_29',['DependsExternalUsingDeepClone.php',['../DependsExternalUsingDeepClone_8php.html',1,'']]],
   ['dependsexternalusingshallowclone_2ephp_30',['DependsExternalUsingShallowClone.php',['../DependsExternalUsingShallowClone_8php.html',1,'']]],
-  ['dependsonclass_2ephp_31',['dependsonclass.php',['../Framework_2Attributes_2DependsOnClass_8php.html',1,'(Espacio de nombres global)'],['../Metadata_2DependsOnClass_8php.html',1,'(Espacio de nombres global)']]],
+  ['dependsonclass_2ephp_31',['dependsonclass.php',['../Metadata_2DependsOnClass_8php.html',1,'(Espacio de nombres global)'],['../Framework_2Attributes_2DependsOnClass_8php.html',1,'(Espacio de nombres global)']]],
   ['dependsonclassusingdeepclone_2ephp_32',['DependsOnClassUsingDeepClone.php',['../DependsOnClassUsingDeepClone_8php.html',1,'']]],
   ['dependsonclassusingshallowclone_2ephp_33',['DependsOnClassUsingShallowClone.php',['../DependsOnClassUsingShallowClone_8php.html',1,'']]],
   ['dependsonmethod_2ephp_34',['DependsOnMethod.php',['../DependsOnMethod_8php.html',1,'']]],
@@ -39,7 +39,7 @@ var searchData=
   ['dependsusingshallowclone_2ephp_36',['DependsUsingShallowClone.php',['../DependsUsingShallowClone_8php.html',1,'']]],
   ['deprecation_2ephp_37',['Deprecation.php',['../Deprecation_8php.html',1,'']]],
   ['deprecations_2emd_38',['DEPRECATIONS.md',['../DEPRECATIONS_8md.html',1,'']]],
-  ['deprecationtriggered_2ephp_39',['deprecationtriggered.php',['../unner_2DeprecationTriggered_8php.html',1,'(Espacio de nombres global)'],['../Issue_2DeprecationTriggered_8php.html',1,'(Espacio de nombres global)']]],
+  ['deprecationtriggered_2ephp_39',['deprecationtriggered.php',['../Issue_2DeprecationTriggered_8php.html',1,'(Espacio de nombres global)'],['../unner_2DeprecationTriggered_8php.html',1,'(Espacio de nombres global)']]],
   ['deprecationtriggeredsubscriber_2ephp_40',['deprecationtriggeredsubscriber.php',['../Issue_2DeprecationTriggeredSubscriber_8php.html',1,'(Espacio de nombres global)'],['../unner_2DeprecationTriggeredSubscriber_8php.html',1,'(Espacio de nombres global)']]],
   ['diff_2ephp_41',['Diff.php',['../Diff_8php.html',1,'']]],
   ['diffelem_2ephp_42',['DiffElem.php',['../DiffElem_8php.html',1,'']]],
@@ -72,5 +72,5 @@ var searchData=
   ['downloader_2ephp_69',['Downloader.php',['../Downloader_8php.html',1,'']]],
   ['driver_2ephp_70',['Driver.php',['../Driver_8php.html',1,'']]],
   ['duplicatemethodexception_2ephp_71',['DuplicateMethodException.php',['../DuplicateMethodException_8php.html',1,'']]],
-  ['duration_2ephp_72',['duration.php',['../phpunit_2src_2Event_2Value_2Telemetry_2Duration_8php.html',1,'(Espacio de nombres global)'],['../php-timer_2src_2Duration_8php.html',1,'(Espacio de nombres global)']]]
+  ['duration_2ephp_72',['duration.php',['../php-timer_2src_2Duration_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2src_2Event_2Value_2Telemetry_2Duration_8php.html',1,'(Espacio de nombres global)']]]
 ];

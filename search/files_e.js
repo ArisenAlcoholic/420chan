@@ -6,7 +6,7 @@ var searchData=
   ['namefilteriterator_2ephp_3',['NameFilterIterator.php',['../NameFilterIterator_8php.html',1,'']]],
   ['nameprettifier_2ephp_4',['NamePrettifier.php',['../NamePrettifier_8php.html',1,'']]],
   ['nameresolver_2ephp_5',['NameResolver.php',['../NameResolver_8php.html',1,'']]],
-  ['namespace_5f_2ephp_6',['namespace_.php',['../Node_2Scalar_2MagicConst_2Namespace___8php.html',1,'(Espacio de nombres global)'],['../Node_2Stmt_2Namespace___8php.html',1,'(Espacio de nombres global)'],['../Builder_2Namespace___8php.html',1,'(Espacio de nombres global)']]],
+  ['namespace_5f_2ephp_6',['namespace_.php',['../Node_2Stmt_2Namespace___8php.html',1,'(Espacio de nombres global)'],['../Node_2Scalar_2MagicConst_2Namespace___8php.html',1,'(Espacio de nombres global)'],['../Builder_2Namespace___8php.html',1,'(Espacio de nombres global)']]],
   ['namespaceuri_2ephp_7',['NamespaceUri.php',['../NamespaceUri_8php.html',1,'']]],
   ['namespaceuriexception_2ephp_8',['NamespaceUriException.php',['../NamespaceUriException_8php.html',1,'']]],
   ['negativevalueexception_2ephp_9',['NegativeValueException.php',['../NegativeValueException_8php.html',1,'']]],

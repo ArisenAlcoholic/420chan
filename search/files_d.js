@@ -22,7 +22,7 @@ var searchData=
   ['matcher_2ephp_19',['matcher.php',['../phpunit_2phpunit_2src_2Framework_2MockObject_2Runtime_2Matcher_8php.html',1,'(Espacio de nombres global)'],['../myclabs_2deep-copy_2src_2DeepCopy_2Matcher_2Matcher_8php.html',1,'(Espacio de nombres global)']]],
   ['matcheralreadyregisteredexception_2ephp_20',['MatcherAlreadyRegisteredException.php',['../MatcherAlreadyRegisteredException_8php.html',1,'']]],
   ['matchtokenemulator_2ephp_21',['MatchTokenEmulator.php',['../MatchTokenEmulator_8php.html',1,'']]],
-  ['medium_2ephp_22',['medium.php',['../phpunit_2src_2Framework_2TestSize_2Medium_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2src_2Framework_2Attributes_2Medium_8php.html',1,'(Espacio de nombres global)'],['../php-code-coverage_2src_2TestSize_2Medium_8php.html',1,'(Espacio de nombres global)']]],
+  ['medium_2ephp_22',['medium.php',['../php-code-coverage_2src_2TestSize_2Medium_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2src_2Framework_2Attributes_2Medium_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2src_2Framework_2TestSize_2Medium_8php.html',1,'(Espacio de nombres global)']]],
   ['memoryefficientlongestcommonsubsequencecalculator_2ephp_23',['MemoryEfficientLongestCommonSubsequenceCalculator.php',['../MemoryEfficientLongestCommonSubsequenceCalculator_8php.html',1,'']]],
   ['memorymeter_2ephp_24',['MemoryMeter.php',['../MemoryMeter_8php.html',1,'']]],
   ['memoryusage_2ephp_25',['MemoryUsage.php',['../MemoryUsage_8php.html',1,'']]],
@@ -30,7 +30,7 @@ var searchData=
   ['metadata_2ephp_27',['Metadata.php',['../Metadata_8php.html',1,'']]],
   ['metadatacollection_2ephp_28',['MetadataCollection.php',['../MetadataCollection_8php.html',1,'']]],
   ['metadatacollectioniterator_2ephp_29',['MetadataCollectionIterator.php',['../MetadataCollectionIterator_8php.html',1,'']]],
-  ['method_2ephp_30',['method.php',['../phpunit_2phpunit_2src_2Framework_2MockObject_2Runtime_2Api_2Method_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2php-code-coverage_2src_2Report_2Xml_2Method_8php.html',1,'(Espacio de nombres global)'],['../nikic_2php-parser_2lib_2PhpParser_2Builder_2Method_8php.html',1,'(Espacio de nombres global)'],['../nikic_2php-parser_2lib_2PhpParser_2Node_2Scalar_2MagicConst_2Method_8php.html',1,'(Espacio de nombres global)']]],
+  ['method_2ephp_30',['method.php',['../phpunit_2php-code-coverage_2src_2Report_2Xml_2Method_8php.html',1,'(Espacio de nombres global)'],['../phpunit_2phpunit_2src_2Framework_2MockObject_2Runtime_2Api_2Method_8php.html',1,'(Espacio de nombres global)'],['../nikic_2php-parser_2lib_2PhpParser_2Builder_2Method_8php.html',1,'(Espacio de nombres global)'],['../nikic_2php-parser_2lib_2PhpParser_2Node_2Scalar_2MagicConst_2Method_8php.html',1,'(Espacio de nombres global)']]],
   ['methodcall_2ephp_31',['MethodCall.php',['../MethodCall_8php.html',1,'']]],
   ['methodcannotbeconfiguredexception_2ephp_32',['MethodCannotBeConfiguredException.php',['../MethodCannotBeConfiguredException_8php.html',1,'']]],
   ['methodname_2ephp_33',['MethodName.php',['../MethodName_8php.html',1,'']]],
@@ -66,7 +66,7 @@ var searchData=
   ['mockobjectinternal_2ephp_63',['MockObjectInternal.php',['../MockObjectInternal_8php.html',1,'']]],
   ['mocktrait_2ephp_64',['MockTrait.php',['../MockTrait_8php.html',1,'']]],
   ['mocktype_2ephp_65',['MockType.php',['../MockType_8php.html',1,'']]],
-  ['mod_2ephp_66',['mod.php',['../BinaryOp_2Mod_8php.html',1,'(Espacio de nombres global)'],['../AssignOp_2Mod_8php.html',1,'(Espacio de nombres global)']]],
+  ['mod_2ephp_66',['mod.php',['../AssignOp_2Mod_8php.html',1,'(Espacio de nombres global)'],['../BinaryOp_2Mod_8php.html',1,'(Espacio de nombres global)']]],
   ['modifiers_2ephp_67',['Modifiers.php',['../Modifiers_8php.html',1,'']]],
   ['morethanonedatasetfromdataproviderexception_2ephp_68',['MoreThanOneDataSetFromDataProviderException.php',['../MoreThanOneDataSetFromDataProviderException_8php.html',1,'']]],
   ['moveattributesfromfilterwhitelisttocoverage_2ephp_69',['MoveAttributesFromFilterWhitelistToCoverage.php',['../MoveAttributesFromFilterWhitelistToCoverage_8php.html',1,'']]],
@@ -74,5 +74,5 @@ var searchData=
   ['movecoveragedirectoriestosource_2ephp_71',['MoveCoverageDirectoriesToSource.php',['../MoveCoverageDirectoriesToSource_8php.html',1,'']]],
   ['movewhitelistexcludestocoverage_2ephp_72',['MoveWhitelistExcludesToCoverage.php',['../MoveWhitelistExcludesToCoverage_8php.html',1,'']]],
   ['movewhitelistincludestocoverage_2ephp_73',['MoveWhitelistIncludesToCoverage.php',['../MoveWhitelistIncludesToCoverage_8php.html',1,'']]],
-  ['mul_2ephp_74',['mul.php',['../BinaryOp_2Mul_8php.html',1,'(Espacio de nombres global)'],['../AssignOp_2Mul_8php.html',1,'(Espacio de nombres global)']]]
+  ['mul_2ephp_74',['mul.php',['../AssignOp_2Mul_8php.html',1,'(Espacio de nombres global)'],['../BinaryOp_2Mul_8php.html',1,'(Espacio de nombres global)']]]
 ];
