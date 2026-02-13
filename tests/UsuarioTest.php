@@ -18,7 +18,7 @@ class UsuarioTest extends TestCase {
 
         // Insertar usuario (como en index.php)
         $stmt = $this->pdo->prepare(
-            "INSERT INTO usuario (nombre_usuario, contrasena) VALUES (?, ?)"
+            "INSERT INTO usuario (nombre_usuarios, contrasena) VALUES (?, ?)"
         );
         $stmt->execute([$username, $password]);
 
