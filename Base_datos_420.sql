@@ -4,7 +4,7 @@ CREATE DATABASE b420chan CHARACTER SET utf8mb4;
 USE b420chan;
 
 /* Primero se crea la tabla usuarios que ya han sido registrados */
-CREATE TABLE usuario (
+CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre_usuario VARCHAR(50) NOT NULL UNIQUE,
     contrasena VARCHAR(50) NOT NULL,
@@ -76,7 +76,7 @@ ON DELETE CASCADE;
 
 ALTER TABLE like_comentario
 ADD CONSTRAINT like_com_usuario
-FOREIGN KEY (id_usuario) REFERENCES usuario(id)
+FOREIGN KEY (id_usuario) REFERENCES usuarios(id)
 ON DELETE CASCADE;
 
 ALTER TABLE like_comentario
@@ -91,7 +91,7 @@ CREATE TRIGGER actualizar_num_publicaciones
 AFTER INSERT ON publicacion
 FOR EACH ROW
 BEGIN
-    UPDATE usuario
+    UPDATE usuarios
     SET num_publicaciones = num_publicaciones + 1
     WHERE id = NEW.id_usuario;
 END $$
@@ -103,7 +103,7 @@ CREATE TRIGGER restar_num_publicaciones
 AFTER DELETE ON publicacion
 FOR EACH ROW
 BEGIN
-    UPDATE usuario
+    UPDATE usuarios
     SET num_publicaciones = num_publicaciones - 1
     WHERE id = OLD.id_usuario;
 END $$
@@ -115,7 +115,7 @@ CREATE TRIGGER actualizar_num_comentarios
 AFTER INSERT ON comentario
 FOR EACH ROW
 BEGIN
-    UPDATE usuario
+    UPDATE usuarios
     SET num_comentarios = num_comentarios + 1
     WHERE id = NEW.id_usuario;
 END $$
@@ -127,7 +127,7 @@ CREATE TRIGGER restar_num_comentarios
 AFTER DELETE ON comentario
 FOR EACH ROW
 BEGIN
-    UPDATE usuario
+    UPDATE usuarios
     SET num_comentarios = num_comentarios - 1 
     WHERE id = OLD.id_usuario;
 END $$
