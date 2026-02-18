@@ -4,7 +4,7 @@ CREATE DATABASE b420chan CHARACTER SET utf8mb4;
 USE b420chan;
 
 /* Primero se crea la tabla usuarios que ya han sido registrados */
-CREATE TABLE usuario (
+CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre_usuario VARCHAR(50) NOT NULL UNIQUE,
     contrasena VARCHAR(50) NOT NULL,
@@ -182,5 +182,6 @@ BEGIN
     WHERE id = OLD.id_comentario;
 END$$
 DELIMITER ;
+
 
 
